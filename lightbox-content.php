@@ -109,3 +109,4 @@ function lc_load_content() {
 
 }
 add_action( 'wp_ajax_lc_get_post', 'lc_load_content' );
+add_action( 'wp_ajax_nopriv_lc_get_post', 'lc_load_content' );
